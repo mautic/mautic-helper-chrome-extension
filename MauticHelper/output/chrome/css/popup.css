@@ -1,0 +1,209 @@
+body.mhe {
+    width: 100% !important;
+    min-width: 400px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: #edece9 !important;
+    background-image: none !important
+}
+
+body.mhe .navbar {
+    width: 100% !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #d8d4d0 !important;
+    box-shadow: 0 2px 4px #e3e3e3 !important
+}
+
+body.mhe .navbar-inner {
+    border-radius: 0px !important;
+    background-image: linear-gradient(to bottom, #f6f6f6, #f0f0f0) !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    box-shadow: none !important;
+    padding-right: 9px !important;
+    padding-left: 11px !important
+}
+
+body.mhe .navbar-inner ul {
+    display: block !important;
+    float: left !important;
+    position: relative !important;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important
+}
+
+body.mhe .navbar-inner .tooltip-inner {
+    border-radius: 0px !important;
+    font-weight: 600 !important
+}
+
+body.mhe .navbar-inner li.timeline-link a {
+    display: inline-block !important;
+    vertical-align: top !important;
+    padding-left: 0 !important;
+    padding-top: 7px !important;
+    padding-right: 0px !important;
+    padding-bottom: 7px !important;
+    outline: none !important
+}
+
+body.mhe .navbar-inner li a {
+    text-shadow: none !important;
+    color: #444 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding-top: 10px !important;
+    font-size: 11px !important
+}
+
+.logo-popup {
+    background-image: url(../icons/icon32.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 32px !important;
+    height: 32px !important;
+    margin-right: 5px !important
+}
+
+/* Absolute Center Spinner */
+        .loading {
+            position: fixed;
+            z-index: 200000;
+            height: 2em;
+            width: 2em;
+            overflow: visible;
+            margin: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            display: none;
+        }
+
+        /* Transparent Overlay */
+        .loading:before {
+            content: '';
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        /* :not(:required) hides these rules from IE9 and below */
+        .loading:not(:required) {
+            /* hide "loading..." text */
+            font: 0/0 a;
+            color: transparent;
+            text-shadow: none;
+            background-color: transparent;
+            border: 0;
+        }
+
+        .loading:not(:required):after {
+            content: '';
+            display: block;
+            font-size: 10px;
+            width: 1em;
+            height: 1em;
+            margin-top: -0.5em;
+            -webkit-animation: spinner 1500ms infinite linear;
+            -moz-animation: spinner 1500ms infinite linear;
+            -ms-animation: spinner 1500ms infinite linear;
+            -o-animation: spinner 1500ms infinite linear;
+            animation: spinner 1500ms infinite linear;
+            border-radius: 0.5em;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+            box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+        }
+
+        /* Animation */
+
+        @-webkit-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @-moz-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @-o-keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+body.mhe .do-not-disturb {
+    height: 18px !important;
+    border-bottom-color: #ccc !important;
+    margin-top: 15px !important;
+    display: inline-block;
+}
+
+span.notif {
+    font-size: 12px;
+    color: #999;
+}
+    
+span.timeline-title {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333;
+}

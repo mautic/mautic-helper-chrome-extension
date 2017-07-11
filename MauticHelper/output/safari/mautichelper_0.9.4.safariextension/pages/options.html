@@ -1,0 +1,57 @@
+  <!doctype html>
+  <html>
+  <head>
+    <title>Mautic Helper</title>
+    <link rel="stylesheet" href="../vendor/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../vendor/bootstrap-switch.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../vendor/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/options.css" type="text/css"/>
+    <script type="text/javascript" src="../kango-ui/kango_api.js"></script>
+    <script type="text/javascript" src="../vendor/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../vendor/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="../js/options.js"></script>
+  </head>
+  <body>
+    <div class="col-md-6 container">
+      <div class="logo-options">Mautic Helper Options</div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="col-sm-4 control-label" for="enable">Enable checking for events</label>
+          <div class="col-sm-8">
+            <input type="checkbox" id="enabl">
+          </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="form-group">
+          <label  class="col-sm-4 control-label" for="url">Mautic URL</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="url" placeholder="Mautic URL">
+            <div class="mautic-icon"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label  class="col-sm-4 control-label" for="url">Mautic Secret</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="secret" placeholder="Mautic Secret">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-4 control-label" for="refresh">Refresh interval (seconds)</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="refresh" placeholder="Refresh interval" value="300">
+          </div>
+        </div>
+        <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-8">
+          <button class="btn btn-primary" id="save">Save Options</button>
+          <button class="btn" id="close">Close</button>
+        </div>
+        </div>
+      </form>
+      <div id="flash-box" class="alert alert-danger hidden" role="alert"></div>
+    </div>
+  </body>
+  </html>

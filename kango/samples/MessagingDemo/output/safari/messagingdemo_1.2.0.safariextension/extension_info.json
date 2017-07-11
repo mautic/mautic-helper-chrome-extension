@@ -1,0 +1,21 @@
+{
+    "content_scripts": [
+        "content.js"
+    ], 
+    "name": "MessagingDemo", 
+    "creator": "Kango", 
+    "description": "Messaging API demo", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "framework_package_id": "dev", 
+    "id": "com.kangoextensions.messagingdemo", 
+    "browser_button": {
+        "caption": "MessagingDemo", 
+        "icon": "icons/button.png", 
+        "tooltipText": "MessagingDemo"
+    }
+}

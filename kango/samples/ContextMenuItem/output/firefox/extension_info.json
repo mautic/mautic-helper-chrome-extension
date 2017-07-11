@@ -1,0 +1,25 @@
+{
+    "context_menu_item": {
+        "caption": "ContextMenuItemDemo"
+    }, 
+    "content_scripts": [
+        "content.js"
+    ], 
+    "name": "ContextMenuItemDemo", 
+    "creator": "Kango", 
+    "description": "Context menu item demo", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "package_id": "kango-6da65dee-ab5b-4045-a22b-ce7ef99e55ed", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "framework_package_id": "dev", 
+    "id": "{6DA65DEE-AB5B-4045-A22B-CE7EF99E55ED}", 
+    "browser_button": {
+        "caption": "ContextMenuItemDemo", 
+        "icon": "icons/button.png", 
+        "tooltipText": "ContextMenuItemDemo"
+    }
+}

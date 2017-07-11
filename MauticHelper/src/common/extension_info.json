@@ -1,0 +1,33 @@
+{
+    "name": "Mautic Helper",
+    "short_name": "Mautic Helper",
+    "short_description": "Mautic Helper",
+    "description": "Mautic Helper Extension",
+    "creator": "Werner Garcia",
+    "version": "0.9.4",
+    "homepage_url": "http://mautic.com",
+    "default_locale": "en",
+
+    "background_scripts": [
+        "assets/jquery-1.10.2.min.js",
+        "js/background.js"
+    ],
+
+    "content_scripts": [
+       "js/content.js"
+    ],
+
+    "browser_button": {
+        "caption": "Mautic Helper",
+        "icon": "icons/button_d.png",
+        "tooltipText": "Mautic Helper Extension"
+    },
+    
+    "options_page": "pages/options.html",
+    
+    "permissions": {
+        "content_scripts": ["http://mail.google.com/*", "https://mail.google.com/*"],
+        "notifications": true,
+        "xhr": ["http://*/*", "https://*/*"]
+    }
+}

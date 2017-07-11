@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Werner Garcia</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mautic Helper</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.kangoextensions.mautichelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9.4</string>
+	<key>CFBundleVersion</key>
+	<string>0.9.4</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>10485760.0</real>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup.html</string>
+				<key>Identifier</key>
+				<string>kango-ui-popup</string>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string></string>
+				<key>Identifier</key>
+				<string>kango-ui-button</string>
+				<key>Image</key>
+				<string>icons/button_d.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Mautic Helper</string>
+				<key>Popover</key>
+				<string>kango-ui-popup</string>
+				<key>Tool Tip</key>
+				<string>Mautic Helper</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>includes/content.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://mail.google.com/*</string>
+			<string>https://mail.google.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Mautic Helper Extension</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string></string>
+	<key>Website</key>
+	<string>http://mautic.com</string>
+</dict>
+</plist>

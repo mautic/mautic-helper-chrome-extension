@@ -1,0 +1,19 @@
+{
+    "browser_button": {
+        "caption": "BrowserEvents", 
+        "icon": "icons/button.png", 
+        "tooltipText": "BrowserEvents"
+    }, 
+    "creator": "Kango", 
+    "description": "Browser API demo", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "package_id": "kango-51840300-9dab-11e1-94bf-005056c00008", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "framework_package_id": "dev", 
+    "id": "{51840300-9dab-11e1-94bf-005056c00008}", 
+    "name": "BrowserEvents"
+}

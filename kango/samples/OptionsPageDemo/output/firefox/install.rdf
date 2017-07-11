@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>{ADA644D6-3AA2-4C0F-90C3-2E8DEE282D35}</em:id>
+        <em:name>OptionsPageDemo</em:name>
+        <em:version>1.2.0</em:version>
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>38.0</em:minVersion>
+                <em:maxVersion>45.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:bootstrap>true</em:bootstrap>
+        <em:description>Options page demo</em:description>
+        <em:creator>Kango</em:creator>
+        <em:homepageURL>http://kangoextensions.com/</em:homepageURL>
+        <em:iconURL>chrome://kango-ada644d6-3aa2-4c0f-90c3-2e8dee282d35/content/icons/icon32.png</em:iconURL>
+        <em:optionsURL>chrome://kango-ada644d6-3aa2-4c0f-90c3-2e8dee282d35/content/options.html</em:optionsURL>
+        <em:optionsType>3</em:optionsType>
+        
+        <em:type>2</em:type>
+    </Description>
+</RDF>

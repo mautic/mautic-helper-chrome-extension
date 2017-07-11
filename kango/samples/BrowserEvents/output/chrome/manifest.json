@@ -1,0 +1,32 @@
+{
+    "name": "BrowserEvents", 
+    "icons": {
+        "128": "icons/icon128.png", 
+        "48": "icons/icon48.png", 
+        "16": "icons/button.png"
+    }, 
+    "web_accessible_resources": [
+        "res/*", 
+        "assets/*", 
+        "icons/*"
+    ], 
+    "description": "Browser API demo", 
+    "background": {
+        "page": "background.html"
+    }, 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "manifest_version": 2, 
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'", 
+    "browser_action": {
+        "default_icon": "icons/button.png", 
+        "default_title": "BrowserEvents"
+    }, 
+    "permissions": [
+        "tabs", 
+        "http://*/*", 
+        "https://*/*", 
+        "contextMenus", 
+        "webNavigation"
+    ]
+}

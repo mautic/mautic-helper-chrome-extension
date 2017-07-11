@@ -1,0 +1,24 @@
+{
+    "name": "Extension name", 
+    "default_locale": "en", 
+    "creator": "Kango", 
+    "description": "Extension description", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "package_id": "kango-c234803a-9f11-410b-9c37-64460b62e661", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.3.0", 
+    "framework_package_id": "dev", 
+    "id": "{C234803A-9F11-410B-9C37-64460B62E661}", 
+    "locales": [
+        "en", 
+        "ru"
+    ], 
+    "browser_button": {
+        "caption": "Kango", 
+        "tooltipText": "Kango", 
+        "icon": "icons/button.png"
+    }
+}

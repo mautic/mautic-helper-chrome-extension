@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>{C234803A-9F11-410B-9C37-64460B62E661}</em:id>
+        <em:name>Extension name</em:name>
+        <em:version>1.3.0</em:version>
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>38.0</em:minVersion>
+                <em:maxVersion>45.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:bootstrap>true</em:bootstrap>
+        <em:description>Extension description</em:description>
+        <em:creator>Kango</em:creator>
+        <em:homepageURL>http://kangoextensions.com/</em:homepageURL>
+        <em:iconURL>chrome://kango-c234803a-9f11-410b-9c37-64460b62e661/content/icons/icon32.png</em:iconURL>
+        
+        
+        
+        <em:type>2</em:type>
+    <em:localized>
+                            <Description>
+                                <em:locale>en</em:locale>
+                                <em:name>Internationalization demo</em:name>
+                                <em:description>Extension description</em:description>
+                            </Description>
+                        </em:localized><em:localized>
+                            <Description>
+                                <em:locale>ru</em:locale>
+                                <em:name>Демонстрация интернационализации</em:name>
+                                <em:description>Описание расширения</em:description>
+                            </Description>
+                        </em:localized></Description>
+</RDF>

@@ -1,0 +1,31 @@
+{
+    "content_scripts": [
+        "js/content.js"
+    ], 
+    "name": "Mautic Helper", 
+    "short_name": "Mautic Helper", 
+    "creator": "Werner Garcia", 
+    "description": "Mautic Helper Extension", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "package_id": "kango-30fb97bf-a297-448f-9cdf-73d00c47e795", 
+    "background_scripts": [
+        "assets/jquery-1.10.2.min.js", 
+        "js/background.js"
+    ], 
+    "short_description": "Mautic Helper", 
+    "homepage_url": "http://mautic.com", 
+    "version": "0.9.4", 
+    "options_page": "pages/options.html", 
+    "default_locale": "en", 
+    "framework_package_id": "dev", 
+    "id": "{30FB97BF-A297-448F-9CDF-73D00C47E795}", 
+    "locales": [
+        "en", 
+        "es"
+    ], 
+    "browser_button": {
+        "caption": "Mautic Helper", 
+        "tooltipText": "Mautic Helper Extension", 
+        "icon": "icons/button_d.png"
+    }
+}

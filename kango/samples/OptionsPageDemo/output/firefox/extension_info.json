@@ -1,0 +1,20 @@
+{
+    "name": "OptionsPageDemo", 
+    "creator": "Kango", 
+    "description": "Options page demo", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "package_id": "kango-ada644d6-3aa2-4c0f-90c3-2e8dee282d35", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "options_page": "options.html", 
+    "framework_package_id": "dev", 
+    "id": "{ADA644D6-3AA2-4C0F-90C3-2E8DEE282D35}", 
+    "browser_button": {
+        "caption": "Open options page", 
+        "tooltipText": "Open options page", 
+        "icon": "icons/button.png"
+    }
+}

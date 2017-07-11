@@ -1,0 +1,20 @@
+{
+    "name": "OptionsPageDemo", 
+    "creator": "Kango", 
+    "description": "Options page demo", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "developer_id": "YOUR_SAFARI_DEVELOPER_ID", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "options_page": "options.html", 
+    "framework_package_id": "dev", 
+    "id": "com.kangoextensions.optionspagedemo", 
+    "browser_button": {
+        "caption": "Open options page", 
+        "tooltipText": "Open options page", 
+        "icon": "icons/button.png"
+    }
+}

@@ -1,0 +1,97 @@
+.mt-email {
+	display: inline-block;
+}
+
+.mt-control {
+	margin-top: 0px;
+}
+
+.mt-compose {
+	display: inline-block;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: initial !important;
+    padding: 0px 4px !important;
+}
+
+.mt-compose:hover {
+	box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px;
+    transition: all 0s !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(248, 248, 248)), to(rgb(241, 241, 241))) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    border-image: initial !important;
+}
+
+.mt-input.mt-checked {
+	border-color: rgb(178, 178, 178) !important;
+    background-color: rgba(255, 255, 255, 0.65098);
+}
+
+.mt-input {
+    margin-right: 0px;
+    margin-top: -1px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.0470588);
+    font-size: 1px;
+    height: 11px;
+    vertical-align: text-bottom;
+    width: 11px;
+    border-radius: 0px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(198, 198, 198) !important;
+    border-image: initial !important;
+    margin: 0px 4px 0px 1px !important;
+    outline: 0px !important;
+}
+
+.mt-checkmark {
+	height: 15px;
+    width: 15px;
+    left: -5px;
+    position: relative;
+    top: -5px;
+    outline: 0px !important;
+}
+
+.mt-compose:hover .mt-input {
+	box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px inset;
+}
+
+.mt-input:hover {
+	border-color: rgb(178, 178, 178) !important;
+}
+
+.mt-label {
+	display: inline-block;
+	line-height: 1px;
+	vertical-align: middle;
+}
+
+.mt-label img {
+	width: 16px;
+	height: 16px;
+}
+
+.mt-button {
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #4e5e9e;
+    background-image: -webkit-linear-gradient(top,#4e5e9e,#4e5e9e);
+    background-image: linear-gradient(top,#4e5e9e,#4e5e9e);
+    border: 1px solid #374271;
+    text: #fff;
+}
+
+.mt-button:hover {
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #374271;
+    background-image: -webkit-linear-gradient(top,#374271,#374271);
+    background-image: linear-gradient(top,#374271,#374271);
+    border: 1px solid #374271;
+    text: #fff;
+}
