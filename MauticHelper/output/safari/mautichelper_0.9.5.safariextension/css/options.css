@@ -1,0 +1,39 @@
+body {
+  padding: 5px;
+  margin: 10px;
+}
+
+h1, h2, p {
+  font-family: sans-serif;
+}
+
+.logo-options {
+    background-image: url(../icons/icon48.png) !important;
+    background-size: contain !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    height: 48px !important;
+    padding-left: 60px !important;
+    vertical-align: middle;
+    line-height: 48px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+div.spacer {
+	display: block;
+	border-bottom: 1px solid lightgray;
+	margin: 20px auto;
+}
+
+.m-alert {
+  width: 400px !important;
+}
+
+.mautic-icon {
+  padding-left: 40px;
+  height: 32px;
+  margin-top: 5px;
+  font-size: 10px;
+  background-repeat: no-repeat !important;
+}
